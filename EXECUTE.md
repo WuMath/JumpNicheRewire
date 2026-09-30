@@ -1,18 +1,6 @@
-# JumpNicheRewire 论文结果执行手册
+# JumpNicheRewire
 
-本手册以 `D:\Phd\GRN\P1\JumpnicheRewire` 为唯一项目根目录。正文对应 `paper/EN/main.tex` 中的两张 benchmark 表（`tab:benchsim`、`tab:benchp22`）、两张案例图（`fig:kidneycommunication`、`fig:breastcommunication`）及前三条变化边的表（`tab:caseedgevariation`）。所有新计算写入 `reproduction_runs/`，保留 `model_inputs/`、`model_fits/`、`results/` 中的论文原始记录。
-
-## 0. 环境与执行顺序
-
-以下命令在 PowerShell 中运行。当前机器已验证主环境为 `C:\Anaconda\envs\jumpniche\python.exe`，R 为 `D:\SoftWare\R\R-4.4.1\bin\Rscript.exe`。换机时先修改这些路径，不能沿用参数 JSON 中的旧绝对路径。
-
-```powershell
-$Root = 'D:\Phd\GRN\P1\JumpnicheRewire'
-$Py = 'C:\Anaconda\envs\jumpniche\python.exe'
-Set-Location -LiteralPath $Root
-& $Py -c "import numpy,pandas,scipy,sklearn,pyarrow,h5py,umap; print('Python dependencies OK')"
-Test-Path -LiteralPath '.\raw_data\p22\GSM6758285_MouseBrain_20um_100barcodes_ATAC_fragments.tsv.gz'
-```
+## 0. 执行顺序
 
 执行分为四层：①从原始文件生成 `reproduction_runs/prepared/`；②重新拟合到 `reproduction_runs/fits/` 或运行七方法队列；③用固定候选集合评价；④重新生成案例表图。若仅要核对**论文已经展示的数值**，可直接运行第 4 节的保存结果核对脚本，无须重新训练。
 

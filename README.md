@@ -1,8 +1,16 @@
-# JumpNicheRewire 中文稿复现教程
+# JumpNicheRewire
 
-当前 `JumpnicheRewire` 文件夹的逐步执行说明见 [执行手册.md](执行手册.md)。该手册覆盖从 `raw_data` 重建四套模型输入、重建 P22 ATAC 支持标签、七方法 benchmark、新案例拟合及图件生成。本文件保留旧归档的说明；文中的旧路径和“fragments 未放入压缩包”描述仅针对旧 ZIP，不代表当前文件夹缺少该文件。
+当前 `JumpnicheRewire` 文件夹的逐步执行说明见 [执行手册.md](执行手册.md)。该手册覆盖从 `raw_data` 重建四套模型输入、重建 P22 ATAC 支持标签、七方法 benchmark、新案例拟合及图件生成。
 
-本包对应 `paper/main_dmaa_revision_zh.tex`。论文列出 scMultiSim 与 P22 两项边排序比较（各七种方法），以及小鼠肾脏、人乳腺癌两张空间案例图。`results/` 保存正文对应的逐边评分、支持标签、逐点绘图值和来源指标；`model_code/` 保存模型、基准方法、配置与评价代码；`model_inputs/` 保存拟合使用的处理后输入；`model_fits/` 保存 P22 和两张切片的缓存拟合。`raw_data/` 包含 scMultiSim 作者对象、P22 RNA/空间文件及两张案例的 10x 原始矩阵与空间文件。`reference_data/` 保存 P22 标签筛选所用的 motif 表。`MANIFEST_SHA256.json` 逐文件记录大小和 SHA-256，可校验解压后的文件。
+论文列出 scMultiSim 与 P22 两项边排序比较（各七种方法），以及小鼠肾脏、人乳腺癌两张空间案例图。
+
+- `results/` 保存正文对应的逐边评分、支持标签、逐点绘图值和来源指标；
+- `model_code/` 保存模型、基准方法、配置与评价代码；
+- `model_inputs/` 保存拟合使用的处理后输入；
+- `model_fits/` 保存 P22 和两张切片的缓存拟合。
+- `raw_data/` 包含 scMultiSim 作者对象、P22 RNA/空间文件及两张案例的 10x 原始矩阵与空间文件。
+- `reference_data/` 保存 P22 标签筛选所用的 motif 表。
+- `MANIFEST_SHA256.json` 逐文件记录大小和 SHA-256，可校验解压后的文件。
 
 P22 配对 ATAC 原始片段文件约 1.53 GB，未放入压缩包；其来源见第 3 节。包内已提供从该文件计算出的 `results/p22/support_edges.csv` 和完整评价候选集合，因此第 1 节的论文结果复算不需要重新下载 ATAC。若要从原始片段重新构建支持标签，则需要下载 ATAC 文件及第 3 节的参考资源。
 
