@@ -1,0 +1,44 @@
+[input] 0.04s
+[module 1] mode=spatial; 20 TFs, 134 targets, 2790 spatial edges, 0.38s
+[module 3 priors] 0.00s
+[module 2] 20 TFs x 134 targets, 7m 10.9s
+[module 4 exposure] 0.09s
+[joint] not applicable (GRN-only); inner=100.0%
+[checkpoint] D:\Phd\GRN\P1\JumpnicheRewire\reproduction_runs\selected_benchmark\03_runs\gse205055_p22\JumpNicheRewire_base\numerical_checkpoint.pkl
+[module 4 output build] 0.23s
+[output parquet] base_grn: 20000 rows
+[output parquet] run_info: 14 rows
+[output parquet] input_audit: 11 rows
+[output parquet] timings: 7 rows
+[output parquet] spatial_genes: 154 rows
+[output parquet] spatial_edges: 2790 rows
+[output parquet] grn_edges: 20000 rows
+[output parquet] lr_gene: 0 rows
+[output parquet] receptor_paths: 0 rows
+[output parquet] cci_edges: 27150 rows
+[output parquet] regulon_activity: 10000 rows
+[output parquet] causal_edges: 0 rows
+[output parquet] convergence: 136 rows
+[output parquet] convergence_history: 34701 rows
+[output xlsx preview] spatial_edges: 200 of 2790 rows; full table is Parquet
+[output xlsx preview] base_grn: 200 of 20000 rows; full table is Parquet
+[output xlsx preview] grn_edges: 200 of 20000 rows; full table is Parquet
+[output xlsx preview] cci_edges: 200 of 27150 rows; full table is Parquet
+[output xlsx preview] regulon_activity: 200 of 10000 rows; full table is Parquet
+[output xlsx preview] convergence_history: 200 of 1000 rows; full table is Parquet
+[output xlsx] excel_manifest: 14 rows
+[output xlsx] run_info: 14 rows
+[output xlsx] input_audit: 11 rows
+[output xlsx] timings: 7 rows
+[output xlsx] spatial_genes: 154 rows
+[output xlsx] spatial_edges: 200 rows
+[output xlsx] base_grn: 200 rows
+[output xlsx] grn_edges: 200 rows
+[output xlsx] lr_gene: 0 rows
+[output xlsx] receptor_paths: 0 rows
+[output xlsx] cci_edges: 200 rows
+[output xlsx] regulon_activity: 200 rows
+[output xlsx] causal_edges: 0 rows
+[output xlsx] convergence: 136 rows
+[output xlsx] convergence_history: 200 rows
+[output] D:\Phd\GRN\P1\JumpnicheRewire\reproduction_runs\selected_benchmark\03_runs\gse205055_p22\JumpNicheRewire_base\JumpNicheRewire_results.xlsx

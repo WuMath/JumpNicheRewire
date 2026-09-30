@@ -1,0 +1,18 @@
+{
+  "dataset": "gse205055_p22",
+  "method": "RegDiffusion",
+  "input_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark\\01_model_input\\gse205055_p22",
+  "source_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\CeSpGRN\\src",
+  "input_hashes": {
+    "expression.csv": "49ac11b5e03df92fc6fd1d3d9d8d3321e54aeeb236440747796f3ea46c83d2c6",
+    "coordinates.csv": "dff644422dddac12fe64233ea98255546e311644eed70ab39dd2980c90721475",
+    "evaluation_tfs.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+    "evaluation_targets.csv": "b2fa5455761dac9cd53b50521a77d72c0e28f0332b9abfbfed4fe17ab5f07795"
+  },
+  "base_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark",
+  "output_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark",
+  "reg_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion",
+  "cell_package": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\data\\result\\optimization_20260921\\single_dataset_extension\\CellOracle\\venv\\Lib\\site-packages\\celloracle",
+  "reg_python": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\vendor\\external_methods\\RegDiffusion\\venv\\Scripts\\python.exe",
+  "cell_python": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\data\\result\\optimization_20260921\\single_dataset_extension\\CellOracle\\venv\\Scripts\\python.exe"
+}

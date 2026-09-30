@@ -1,0 +1,17 @@
+{
+  "state": "completed",
+  "pid": 24004,
+  "process_started": 1790748159.5538151,
+  "command": [
+    "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\vendor\\external_methods\\RegDiffusion\\venv\\Scripts\\python.exe",
+    "-B",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\selected_benchmark\\sc_worker.py"
+  ],
+  "started_epoch": 1790748159.6143012,
+  "result": null,
+  "exit_code": 0,
+  "error": null,
+  "peak_sampled_worker_tree_rss_bytes": 504020992,
+  "finished_epoch": 1790748201.9432647,
+  "memory_measurement": "sampled RSS, not an OS hard cap"
+}

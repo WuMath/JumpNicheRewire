@@ -1,0 +1,8 @@
+{
+  "decision": "top ceil(10% of evaluable candidates); tie-expected precision/recall",
+  "AP_AUROC": "full evaluable candidate universe, not top-k",
+  "real_data_label_zero": "not experimentally supported, not verified negative",
+  "scmultisim_role": "development dataset; tuned on same data",
+  "real_reference_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\02_reference",
+  "single_public_jnr_row_only_if_both_prediction_hashes_equal": true
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "gse205055_p22",
+  "genome": "GRCm38/mm10",
+  "tfs": 20,
+  "targets": 120,
+  "n_candidates": 2400,
+  "motif_support": 100,
+  "accessible_targets": 120,
+  "joint_support": 100,
+  "matching_fragments": 8009205,
+  "coordinate_rule": "selected 500 RNA spots; target promoter TSS +/- 2kb; >=5 ATAC fragments",
+  "motif_rule": "preexisting cisTarget top-1000 gene-level 10kb motif ranking; not peak-level motif hit",
+  "unobserved_not_true_negatives": true,
+  "model_prior_used": false,
+  "source_hashes": {
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\p22\\GSM6758285_MouseBrain_20um_100barcodes_ATAC_fragments.tsv.gz": "1c7098624b297b6b498fba5f7ec09e8828a8757b2fd5c59abb38003cf5867628",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reference_data\\motif_tf_gene.parquet": "d6de4236f92204ff2872f983ef3834e2eecfdefbcfc82ce52f94bffebc4ceb65",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\mouse_annotations\\Mus_musculus.GRCm38.86.gtf.gz": "53c1cbc4d1029304f83e0bef88a4cdd5aadd92462a9e3daa5ca128b270a9bb69"
+  }
+}

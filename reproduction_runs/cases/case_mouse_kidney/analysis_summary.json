@@ -1,0 +1,13 @@
+{
+  "case": "case_mouse_kidney",
+  "spots": 3124,
+  "fitted_tfs": 3,
+  "fitted_targets": 147,
+  "selected_edge": [
+    "Hnf4a",
+    "Slc22a19"
+  ],
+  "selected_edge_delta_q90_minus_q10": 0.1698135223511989,
+  "selected_edge_mean_abs_delta": 0.04437651036052819,
+  "dominant_lr_component": "Calr__Itgav"
+}

@@ -1,0 +1,25 @@
+{
+  "dataset_id": "published_tree1_500_cells110_genes_sigma0.1_1",
+  "evidence_track": "public_simulator",
+  "source": "https://doi.org/10.5281/zenodo.13119261",
+  "evaluation_scope": "published_GRN_global",
+  "truth_kind": "exact_simulation",
+  "species": "synthetic",
+  "tissue": "published_simulation",
+  "dataset_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim",
+  "truth_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\truth",
+  "cells": 500,
+  "genes": 110,
+  "notes": "All cells retained; fixed expression-selected target panel; published data, not resimulated.",
+  "files": {
+    "expression.csv": "3a7c210f4c8448078b10e030acf92a2843f210b3f9ec97fe553d30caa1d8d8f0",
+    "coordinates.csv": "aff53fa479e96cc99302ef53ed86841ea445ac531e8600170bccbe63bab50718",
+    "metadata.csv": "661ab9ad443b3babfac41066c3738f99129f630d3ce79b44bc23867d3d170a87",
+    "tf_list.csv": "03a670301f9f170fe9c61f6c9a0bc57e85b967d767e1a5b116073af3636328c2",
+    "lr_pairs.csv": "6192b74f4c21355d0c51065a7812820b6887be6e01feb3f2346bbff73abb0f9b",
+    "prior_tf_gene.csv": "02c458ffe9f326d39583ce27b80c1158129dd9e11369919995111d5e807fcd5b",
+    "prior_lr_tf.csv": "5428c4204b651d5f2f0a9ed7244664fbe40bd11bdaf038b8bd5b9ab8d8ded668",
+    "truth/truth_grn.csv": "2328489a9e297722c4dee33a6fe37cbc3f0b006420881f1de3c4dc87b332ea2f"
+  },
+  "signature": "317107c8e76e6ac41a557059eb6288b81ce71e6e060e9c25fda01867365d4207"
+}

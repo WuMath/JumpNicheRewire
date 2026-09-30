@@ -1,0 +1,33 @@
+{
+  "dataset_id": "case_human_breast_cancer",
+  "method": "JumpNicheRewire",
+  "state": "completed",
+  "pid": 19028,
+  "input_signature": "521487156dd05712f1d0f642b62e7119cd63834a464b41c3cde752bc260f4057",
+  "started_epoch": 1789946013.4330597,
+  "split": "case",
+  "convergence_rate": 1.0,
+  "all_diagnostic_rate": 1.0,
+  "failed_diagnostics": 0,
+  "diagnostics": 296,
+  "module_rates": {
+    "base_grn": 1.0,
+    "communication_rewiring": 1.0
+  },
+  "joint_applicable": true,
+  "joint_converged": true,
+  "convergence_passed": true,
+  "convergence_policy": "v3_per_module_and_undamped_joint",
+  "minimum_convergence_rate": 0.9,
+  "prediction_sha256": "0e4d778398d59fb8cf631cd956ade1c6a977abc73351cddcaf437d41227b6a7e",
+  "runtime_seconds": 2997.798453100011,
+  "finished_epoch": 1789949011.2330892,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.2"
+  },
+  "exit_code": 0,
+  "peak_rss_gib": 0.9564018249511719,
+  "implementation_hash": "3493b442e09f32f4dad809f778d82ec17692fa5692fc453596d75a9d70aaecce"
+}

@@ -1,0 +1,54 @@
+{
+  "state": "completed",
+  "controller": {
+    "pid": 26988,
+    "process_started": 1790746583.5144787,
+    "command": [
+      "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+      ".\\model_code\\main_jumpniche.py"
+    ],
+    "token": "5d9492aeef534d4eabdbd98fd681c547"
+  },
+  "started_epoch": 1790746591.2753248,
+  "attempt_token": "5d9492aeef534d4eabdbd98fd681c547",
+  "pid": 26576,
+  "process_started": 1790746591.2689488,
+  "command": [
+    "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+    "-c",
+    "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=26988, pipe_handle=924)",
+    "--multiprocessing-fork"
+  ],
+  "result": {
+    "state": "completed",
+    "dataset": "scmultisim",
+    "method": "JumpNicheRewire",
+    "prediction_sha256": "a95233bde2f3e77abc0e80e75c471a6d1eaf49d29d6021f9424dd8d19e1981c6"
+  },
+  "exit_code": 0,
+  "peak_sampled_worker_tree_rss_bytes": 291553280,
+  "observed_descendants": [
+    {
+      "pid": 25848,
+      "process_started": 1790746592.3183365,
+      "command": [
+        "C:\\WINDOWS\\system32\\cmd.exe",
+        "/c",
+        "ver"
+      ]
+    },
+    {
+      "pid": 22844,
+      "process_started": 1790746594.4722612,
+      "command": [
+        "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+        "-c",
+        "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=26576, pipe_handle=2236)",
+        "--multiprocessing-fork"
+      ]
+    }
+  ],
+  "memory_measurement": "sampled RSS, not an OS allocation cap or guaranteed instantaneous peak",
+  "runtime_seconds": 209.375,
+  "finished_epoch": 1790746800.647529
+}

@@ -1,0 +1,23 @@
+{
+  "state": "completed",
+  "dataset": "gse205055_p22",
+  "method": "RegDiffusion",
+  "candidates": 2400,
+  "candidate_coverage": 2400,
+  "prediction_sha256": "ccc9d7464b4f129fab8f5b6ccf7868579f9756ed62ba84799afa71ecff1b956b",
+  "input_hashes": {
+    "expression.csv": "49ac11b5e03df92fc6fd1d3d9d8d3321e54aeeb236440747796f3ea46c83d2c6",
+    "coordinates.csv": "dff644422dddac12fe64233ea98255546e311644eed70ab39dd2980c90721475",
+    "evaluation_tfs.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+    "evaluation_targets.csv": "b2fa5455761dac9cd53b50521a77d72c0e28f0332b9abfbfed4fe17ab5f07795"
+  },
+  "truth_read": false,
+  "removed_zero_variance": [],
+  "adjacency_sha256": "a08ce8eb03780e6d67815b823527ed4617a70671fd8154a5ced940c2917a2d1a",
+  "parameters": {
+    "seed": 20260923,
+    "n_steps": 1000,
+    "device": "cpu",
+    "other": "official defaults"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "case_mouse_kidney",
+  "state": "completed",
+  "input_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\case_mouse_kidney",
+  "config_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_fits\\case_mouse_kidney\\model_config.json",
+  "convergence": {
+    "convergence_rate": 1.0,
+    "all_diagnostic_rate": 1.0,
+    "failed_diagnostics": 0,
+    "diagnostics": 294,
+    "module_rates": {
+      "base_grn": 1.0,
+      "communication_rewiring": 1.0
+    },
+    "joint_applicable": true,
+    "joint_converged": true,
+    "convergence_passed": true,
+    "convergence_policy": "v3_per_module_and_undamped_joint",
+    "minimum_convergence_rate": 0.9
+  },
+  "edges": 441,
+  "global_grn_sha256": "12e8838a35ed8aff260c29f2f4b4da0ad2d726a2c9a159c5441ede96538daef4",
+  "runtime_seconds": 5474.3418497999955
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "case": "case_mouse_kidney",
+    "spot_count": 3124,
+    "selected_values_sha256": "22a3764c6aa01cf951a76cb85ea1820d2aa2e519c0298be5151262bdb7f01fb2",
+    "embedding_sha256": "4f3cf487f4e22136cb880c0fc1e46814d40ebb427f4724102c63612fd589c943",
+    "figure_sha256": "652dfad1e5986c22cb956821a45991bd8be1e58abceea835fcac695834d238ae",
+    "figure": "mouse_kidney_communication_case_edge_only.pdf"
+  },
+  {
+    "case": "case_human_breast_cancer",
+    "spot_count": 2518,
+    "selected_values_sha256": "c957b0268a6bb4cfbad5fad068b9770878b679a0cd903b6bd546a2b1fa0b5162",
+    "embedding_sha256": "f03abb1520c8e4a9f9d8e19976a882cd8eb8ed60d2a573e6f20f7c9ad61c227c",
+    "figure_sha256": "7d72e709bfa72c89d0d13808018b9e76da7655844156dfe50075b3c78c1166a6",
+    "figure": "human_breast_communication_case_edge_only.pdf"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "state": "completed",
+  "dataset": "gse205055_p22",
+  "method": "CeSpGRN",
+  "candidates": 2400,
+  "candidate_coverage": 2400,
+  "prediction_sha256": "14caaddf4fc23ec8ea8a2d9626ec02e13c20e98a439f25357a791da4bb2855eb",
+  "projection_sha256": "7b0a05cdcd0738cb6662f37081870fddd58b4d4296b568b18551db43dfa546b4",
+  "input_hashes": {
+    "expression.csv": "49ac11b5e03df92fc6fd1d3d9d8d3321e54aeeb236440747796f3ea46c83d2c6",
+    "coordinates.csv": "dff644422dddac12fe64233ea98255546e311644eed70ab39dd2980c90721475",
+    "evaluation_tfs.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+    "evaluation_targets.csv": "b2fa5455761dac9cd53b50521a77d72c0e28f0332b9abfbfed4fe17ab5f07795"
+  },
+  "truth_read": false,
+  "parameters": {
+    "kernel_input": "spatial",
+    "kernel_k": 5,
+    "bandwidth": 1.0,
+    "neighbors": 30,
+    "lamb": 0.1,
+    "max_iters": 1000,
+    "batch_size": 32,
+    "seed": 20260923,
+    "device": "cpu",
+    "covariance_weighted_kt": true
+  },
+  "native_network": "undirected cell-specific association"
+}

@@ -1,0 +1,90 @@
+{
+  "state": "completed",
+  "controller": {
+    "pid": 26988,
+    "process_started": 1790746583.5144787,
+    "command": [
+      "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+      ".\\model_code\\main_jumpniche.py"
+    ],
+    "token": "cea8fe13bb1849018294056c0e917c5c"
+  },
+  "started_epoch": 1790751674.9553707,
+  "attempt_token": "cea8fe13bb1849018294056c0e917c5c",
+  "pid": 27024,
+  "process_started": 1790751674.9487524,
+  "command": [
+    "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+    "-c",
+    "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=26988, pipe_handle=2964)",
+    "--multiprocessing-fork"
+  ],
+  "result": {
+    "state": "completed",
+    "dataset": "gse205055_p22",
+    "method": "CLR",
+    "candidates": 2400,
+    "input_hashes": {
+      "expression.csv": "49ac11b5e03df92fc6fd1d3d9d8d3321e54aeeb236440747796f3ea46c83d2c6",
+      "coordinates.csv": "dff644422dddac12fe64233ea98255546e311644eed70ab39dd2980c90721475",
+      "metadata.csv": "b4c00ed04cbc10352a2c61d079cea04b2af6c8f3dcb79df24aeb101b89689580",
+      "tf_list.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+      "lr_pairs.csv": "389c4eff7efadba2753b96a266ac6539740b82ff8184516ae7a46758f45fb526",
+      "prior_tf_gene.csv": "02c458ffe9f326d39583ce27b80c1158129dd9e11369919995111d5e807fcd5b",
+      "prior_lr_tf.csv": "5428c4204b651d5f2f0a9ed7244664fbe40bd11bdaf038b8bd5b9ab8d8ded668",
+      "evaluation_tfs.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+      "evaluation_targets.csv": "b2fa5455761dac9cd53b50521a77d72c0e28f0332b9abfbfed4fe17ab5f07795"
+    },
+    "truth_read": false,
+    "candidate_coverage": 2400,
+    "prediction_sha256": "af06f63b847921510339c2072e3aebdb6f80399190fe792b1adc1d2d550a4bc0",
+    "parameters": {
+      "estimator": "pearson",
+      "disc": "none",
+      "nbins": 10
+    },
+    "convergence_policy": "not_applicable_to_baseline"
+  },
+  "exit_code": 0,
+  "peak_sampled_worker_tree_rss_bytes": 195674112,
+  "observed_descendants": [
+    {
+      "pid": 19460,
+      "process_started": 1790751676.281832,
+      "command": [
+        "D:\\SoftWare\\R\\R-4.4.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\benchmark_optimization\\official_r.R"
+      ]
+    },
+    {
+      "pid": 24952,
+      "process_started": 1790751676.292843,
+      "command": [
+        "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+        "0x4"
+      ]
+    },
+    {
+      "pid": 21072,
+      "process_started": 1790751676.3150947,
+      "command": [
+        "C:\\WINDOWS\\system32\\cmd.exe",
+        "/c",
+        "D:\\SoftWare\\R\\R-4.4.1\\bin\\x64\\Rscript.exe --vanilla D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\benchmark_optimization\\official_r.R"
+      ]
+    },
+    {
+      "pid": 24400,
+      "process_started": 1790751676.334088,
+      "command": [
+        "D:\\SoftWare\\R\\R-4.4.1\\bin\\x64\\Rscript.exe",
+        "--vanilla",
+        "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\benchmark_optimization\\official_r.R"
+      ]
+    }
+  ],
+  "memory_measurement": "sampled RSS, not an OS allocation cap or guaranteed instantaneous peak",
+  "runtime_seconds": 1.8440000000118744,
+  "finished_epoch": 1790751676.7891498
+}

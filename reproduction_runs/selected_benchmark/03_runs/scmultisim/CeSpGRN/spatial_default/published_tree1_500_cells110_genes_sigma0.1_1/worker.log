@@ -1,0 +1,113 @@
+final number of nearest neighbor (make connected): 5
+start running batch 0
+n_iter: 100, duality gap: 3.5268e-07, primal residual: 1.9434e-06, dual residual: 4.144278e-06, loss1: 4.953585e+03, loss2: 4.304630e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4953.58545, loss2: 4304.62988, loss3: 0.00000
+Finished running batch 0, running time: 15.06 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 1
+n_iter: 100, duality gap: 3.5353e-07, primal residual: 2.0341e-06, dual residual: 4.281249e-06, loss1: 4.957397e+03, loss2: 4.302889e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4957.39746, loss2: 4302.88867, loss3: 0.00000
+Finished running batch 1, running time: 16.18 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 2
+n_iter: 100, duality gap: 5.1904e-07, primal residual: 2.1020e-06, dual residual: 4.051574e-06, loss1: 4.951202e+03, loss2: 4.306674e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4951.20215, loss2: 4306.67432, loss3: 0.00000
+Finished running batch 2, running time: 15.02 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 3
+n_iter: 100, duality gap: 4.6061e-07, primal residual: 2.0242e-06, dual residual: 4.348027e-06, loss1: 4.942675e+03, loss2: 4.342695e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4942.67529, loss2: 4342.69482, loss3: 0.00000
+Finished running batch 3, running time: 15.09 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 4
+n_iter: 100, duality gap: 2.9098e-07, primal residual: 2.1187e-06, dual residual: 4.605736e-06, loss1: 4.947374e+03, loss2: 4.346728e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4947.37402, loss2: 4346.72803, loss3: 0.00000
+Finished running batch 4, running time: 15.10 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 5
+n_iter: 100, duality gap: 4.4767e-07, primal residual: 2.1839e-06, dual residual: 4.506946e-06, loss1: 4.956339e+03, loss2: 4.311947e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4956.33936, loss2: 4311.94727, loss3: 0.00000
+Finished running batch 5, running time: 15.89 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 6
+n_iter: 100, duality gap: 3.6887e-07, primal residual: 2.2172e-06, dual residual: 4.586605e-06, loss1: 4.935911e+03, loss2: 4.384803e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4935.91064, loss2: 4384.80273, loss3: 0.00000
+Finished running batch 6, running time: 15.03 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 7
+n_iter: 100, duality gap: 4.4983e-07, primal residual: 2.1653e-06, dual residual: 4.258538e-06, loss1: 4.933443e+03, loss2: 4.401478e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4933.44287, loss2: 4401.47754, loss3: 0.00000
+Finished running batch 7, running time: 15.03 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 8
+n_iter: 100, duality gap: 3.5133e-07, primal residual: 2.2211e-06, dual residual: 4.575289e-06, loss1: 4.926306e+03, loss2: 4.418927e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4926.30615, loss2: 4418.92725, loss3: 0.00000
+Finished running batch 8, running time: 15.91 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 9
+n_iter: 100, duality gap: 2.4666e-07, primal residual: 2.1998e-06, dual residual: 4.515677e-06, loss1: 4.936913e+03, loss2: 4.382768e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4936.91309, loss2: 4382.76758, loss3: 0.00000
+Finished running batch 9, running time: 14.97 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 10
+n_iter: 100, duality gap: 3.8781e-07, primal residual: 2.1803e-06, dual residual: 4.858889e-06, loss1: 4.917423e+03, loss2: 4.427992e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4917.42334, loss2: 4427.99219, loss3: 0.00000
+Finished running batch 10, running time: 14.81 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 11
+n_iter: 100, duality gap: 3.7229e-07, primal residual: 2.2289e-06, dual residual: 4.630966e-06, loss1: 4.908493e+03, loss2: 4.460207e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4908.49316, loss2: 4460.20703, loss3: 0.00000
+Finished running batch 11, running time: 15.61 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 12
+n_iter: 100, duality gap: 3.6695e-07, primal residual: 2.3039e-06, dual residual: 4.942460e-06, loss1: 4.916792e+03, loss2: 4.465360e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4916.79199, loss2: 4465.36035, loss3: 0.00000
+Finished running batch 12, running time: 14.83 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 13
+n_iter: 100, duality gap: 3.0179e-07, primal residual: 2.1204e-06, dual residual: 4.457048e-06, loss1: 4.916953e+03, loss2: 4.414002e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4916.95264, loss2: 4414.00244, loss3: 0.00000
+Finished running batch 13, running time: 14.88 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 14
+n_iter: 100, duality gap: 3.5930e-07, primal residual: 2.3359e-06, dual residual: 4.891115e-06, loss1: 4.909658e+03, loss2: 4.507090e+03, loss3: 0.0000e+00
+Batch loss: loss1: 4909.65771, loss2: 4507.09033, loss3: 0.00000
+Finished running batch 14, running time: 13.98 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.
+start running batch 15
+n_iter: 100, duality gap: 3.6400e-07, primal residual: 2.2291e-06, dual residual: 4.815991e-06, loss1: 3.052620e+03, loss2: 2.846914e+03, loss3: 0.0000e+00
+Batch loss: loss1: 3052.61963, loss2: 2846.91431, loss3: 0.00000
+Finished running batch 15, running time: 8.18 sec
+calculate the partial correlation matrix
+Construct conditional covariance matrix...
+Done.

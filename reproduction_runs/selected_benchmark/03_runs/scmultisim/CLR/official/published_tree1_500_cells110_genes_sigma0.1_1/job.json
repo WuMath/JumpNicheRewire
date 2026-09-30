@@ -1,0 +1,13 @@
+{
+  "method": "CLR",
+  "params": {
+    "estimator": "spearman",
+    "disc": "none",
+    "nbins": 10
+  },
+  "seed": 20260921,
+  "expression": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark\\03_runs\\scmultisim\\CLR\\official\\published_tree1_500_cells110_genes_sigma0.1_1\\log_expression.csv",
+  "tfs": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\tf_list.csv",
+  "library": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\R_library",
+  "software": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\software"
+}

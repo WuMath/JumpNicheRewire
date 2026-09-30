@@ -1,0 +1,23 @@
+{
+  "case": "case_mouse_kidney",
+  "spots": 3124,
+  "fitted_tfs": 3,
+  "fitted_targets": 147,
+  "selected_edge": [
+    "Hnf4a",
+    "Slc22a19"
+  ],
+  "selected_edge_delta_q90_minus_q10": 0.1698135223511989,
+  "selected_edge_mean_abs_delta": 0.04437651036052819,
+  "dominant_lr_component": "Calr__Itgav",
+  "pathway_tests": 6,
+  "pathway_fdr05": 0,
+  "best_pathway": "PPAR Signaling Pathway WP2316",
+  "best_q": 1.0,
+  "causal_diagnostics_passed": 0,
+  "causal_diagnostics_total": 3351,
+  "reconstruction_max_abs_error": 8.787187557451892e-16,
+  "model_status_sha256": "b698a0de8389ee38012359b03d5b5d1bd4a1d7692136fde4020e85dce91eb544",
+  "coefficient_sha256": "b8233f5945676e468ee6846c5c004259f185f93c3f04ada7668282a8f5239f7d",
+  "reference_scope": "RNA-only, 1 tissue section, expression-derived clusters, model-internal delta; no causal proof"
+}

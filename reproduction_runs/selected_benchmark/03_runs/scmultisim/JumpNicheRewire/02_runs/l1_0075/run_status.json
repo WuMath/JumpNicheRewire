@@ -1,0 +1,37 @@
+{
+  "state": "completed",
+  "dataset_id": "published_tree1_500_cells110_genes_sigma0.1_1",
+  "method": "JumpNicheRewire",
+  "candidate": "l1_0075",
+  "parameters": {
+    "l1_penalty": 0.075,
+    "fusion_penalty": 0.0005,
+    "group_penalty": 0.01,
+    "ridge_penalty": 0.0001,
+    "aggregation": "mean_abs"
+  },
+  "input_signature": "317107c8e76e6ac41a557059eb6288b81ce71e6e060e9c25fda01867365d4207",
+  "implementation_hash": "ab208a3cd1b16c6f0668c780d6dc4450d676556fd3e8c1540c453fc6526c0c53",
+  "pid": 22844,
+  "process_started": 1790746594.4722612,
+  "runtime_seconds": 203.21831226348877,
+  "convergence": {
+    "convergence_rate": 1.0,
+    "all_diagnostic_rate": 1.0,
+    "failed_diagnostics": 0,
+    "diagnostics": 208,
+    "module_rates": {
+      "base_grn": 1.0,
+      "communication_rewiring": 1.0
+    },
+    "joint_applicable": true,
+    "joint_converged": true,
+    "convergence_passed": true,
+    "convergence_policy": "v3_per_module_and_undamped_joint",
+    "minimum_convergence_rate": 0.9
+  },
+  "prediction_sha256": "a95233bde2f3e77abc0e80e75c471a6d1eaf49d29d6021f9424dd8d19e1981c6",
+  "worker_exit_code": 0,
+  "peak_sampled_rss_bytes": 192258048,
+  "sampled_storage_bytes": 4465265321
+}

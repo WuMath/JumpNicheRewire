@@ -1,0 +1,17 @@
+{
+  "state": "completed",
+  "pid": 19916,
+  "process_started": 1790746802.8027382,
+  "command": [
+    "C:\\Anaconda\\envs\\jnr-cespgrn\\python.exe",
+    "-B",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\selected_benchmark\\sc_worker.py"
+  ],
+  "started_epoch": 1790746802.8476999,
+  "result": null,
+  "exit_code": 0,
+  "error": null,
+  "peak_sampled_worker_tree_rss_bytes": 698818560,
+  "finished_epoch": 1790747901.8982606,
+  "memory_measurement": "sampled RSS, not an OS hard cap"
+}

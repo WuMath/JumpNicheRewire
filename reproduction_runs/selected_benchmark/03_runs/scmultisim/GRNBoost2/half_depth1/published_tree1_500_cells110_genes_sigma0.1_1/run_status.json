@@ -1,0 +1,44 @@
+{
+  "state": "completed",
+  "controller": {
+    "pid": 22136,
+    "process_started": 1790748119.177541,
+    "command": [
+      "C:\\Anaconda\\envs\\jnr-trees-clean\\python.exe",
+      "-c",
+      "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=26988, pipe_handle=2496)",
+      "--multiprocessing-fork"
+    ],
+    "token": "9f29ee6a0ff4470b8d2e5ac0315bceef"
+  },
+  "started_epoch": 1790748123.6990788,
+  "attempt_token": "9f29ee6a0ff4470b8d2e5ac0315bceef",
+  "pid": 22920,
+  "process_started": 1790748123.6933403,
+  "command": [
+    "C:\\Anaconda\\envs\\jnr-trees-clean\\python.exe",
+    "-c",
+    "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22136, pipe_handle=1368)",
+    "--multiprocessing-fork"
+  ],
+  "result": {
+    "state": "completed",
+    "method": "GRNBoost2",
+    "candidate": "half_depth1",
+    "dataset_id": "published_tree1_500_cells110_genes_sigma0.1_1",
+    "rows": 624,
+    "prediction_sha256": "0e848695803335c39e205d5550534116295b65509b8ebec7686baf75fb30d18c",
+    "input_sha256": "3a7c210f4c8448078b10e030acf92a2843f210b3f9ec97fe553d30caa1d8d8f0",
+    "truth_read": false,
+    "parameters": {
+      "max_features": 0.5,
+      "max_depth": 1
+    }
+  },
+  "exit_code": 0,
+  "peak_sampled_worker_tree_rss_bytes": 178675712,
+  "observed_descendants": [],
+  "memory_measurement": "sampled RSS, not an OS allocation cap or guaranteed instantaneous peak",
+  "runtime_seconds": 10.360000000015134,
+  "finished_epoch": 1790748134.05394
+}

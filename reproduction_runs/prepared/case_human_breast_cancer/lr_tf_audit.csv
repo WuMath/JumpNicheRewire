@@ -1,0 +1,7 @@
+item,value
+signaling_edges,32538
+candidate_receptors,12
+receptors_with_tf_path,8
+candidate_lr_pairs,40
+lr_pairs_with_tf_path,34
+lr_tf_edges,274

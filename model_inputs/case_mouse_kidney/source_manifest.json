@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-09-20T15:32:29.156681+00:00",
+  "mode": "offline_preprocess",
+  "configuration": {
+    "matrix_h5": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\publication_20260920\\cases\\mouse_kidney\\Visium_FFPE_Mouse_Kidney_filtered_feature_bc_matrix.h5",
+    "spatial_source": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\publication_20260920\\cases\\mouse_kidney\\Visium_FFPE_Mouse_Kidney_spatial.tar.gz",
+    "reference_dir": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\data\\processed\\references",
+    "output_dir": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\processed\\publication_20260920\\case_mouse_kidney",
+    "tissue_only": true,
+    "maximum_spots": null,
+    "maximum_genes": 600,
+    "maximum_tfs": 12,
+    "maximum_lr_pairs": 40,
+    "minimum_detected_spots": 8,
+    "random_seed": 20260920,
+    "sample_id": "Visium_FFPE_Mouse_Kidney",
+    "cell_type_label": "NA",
+    "region_label": "global",
+    "condition_label": "healthy"
+  },
+  "source_files": {
+    "matrix_h5": {
+      "path": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\publication_20260920\\cases\\mouse_kidney\\Visium_FFPE_Mouse_Kidney_filtered_feature_bc_matrix.h5",
+      "bytes": 24774984,
+      "sha256": "b7c3a904971ece636c79cda1dd49d7f7f183080698516477f96182b46597f977"
+    },
+    "spatial_source": {
+      "path": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\publication_20260920\\cases\\mouse_kidney\\Visium_FFPE_Mouse_Kidney_spatial.tar.gz",
+      "bytes": 9144175,
+      "sha256": "cd55f1d7c5665d7f37ea83ab58729149e93e762f4ed69f7f9bde747ec4404c64"
+    },
+    "reference_tf": {
+      "path": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\data\\processed\\references\\tf_list.csv",
+      "bytes": 5907,
+      "sha256": "6a0a3e24f6b3c573da52ca294350d9425c191614f2a34842f2ba9a0fd1343e01"
+    },
+    "reference_lr": {
+      "path": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\data\\processed\\references\\lr_pairs.csv",
+      "bytes": 74910,
+      "sha256": "6b82b198b10e6692ed256078c03058394ea5df87108837189a984e48d729d9c2"
+    },
+    "reference_prior": {
+      "path": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\data\\processed\\references\\prior_tf_gene.csv",
+      "bytes": 22659201,
+      "sha256": "a59f4e0cc04fe05d3396530b8e1ec1e274e662f6dc2ae290d0f63b547ba18318"
+    }
+  },
+  "notes": [
+    "Expression values are raw filtered 10x counts; use expression_is_normalized=False.",
+    "Coordinates are full-resolution image pixels from Space Ranger.",
+    "region=global and cell_type=NA are placeholders, not inferred annotations."
+  ]
+}

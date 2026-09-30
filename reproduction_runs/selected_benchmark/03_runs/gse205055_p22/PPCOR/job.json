@@ -1,0 +1,11 @@
+{
+  "method": "PPCOR",
+  "params": {
+    "method": "kendall"
+  },
+  "seed": 20260925,
+  "expression": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark\\03_runs\\gse205055_p22\\PPCOR\\log_expression.csv",
+  "tfs": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark\\01_model_input\\gse205055_p22\\tf_list.csv",
+  "library": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\R_library",
+  "software": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\software"
+}

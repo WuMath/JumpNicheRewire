@@ -1,0 +1,70 @@
+{
+  "state": "completed",
+  "controller": {
+    "pid": 19200,
+    "process_started": 1790326910.026446,
+    "command": [
+      "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+      "-u",
+      "main_jumpniche.py"
+    ],
+    "token": "0b82a6a639804182b9ede1bc5c8d32a5"
+  },
+  "started_epoch": 1790327884.2990716,
+  "attempt_token": "0b82a6a639804182b9ede1bc5c8d32a5",
+  "pid": 17196,
+  "process_started": 1790327884.291998,
+  "command": [
+    "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+    "-c",
+    "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=19200, pipe_handle=2252)",
+    "--multiprocessing-fork"
+  ],
+  "result": {
+    "state": "completed",
+    "dataset": "gse205055_p22",
+    "method": "JumpNicheRewire_communication",
+    "candidates": 2400,
+    "input_hashes": {
+      "expression.csv": "49ac11b5e03df92fc6fd1d3d9d8d3321e54aeeb236440747796f3ea46c83d2c6",
+      "coordinates.csv": "dff644422dddac12fe64233ea98255546e311644eed70ab39dd2980c90721475",
+      "metadata.csv": "b4c00ed04cbc10352a2c61d079cea04b2af6c8f3dcb79df24aeb101b89689580",
+      "tf_list.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+      "lr_pairs.csv": "389c4eff7efadba2753b96a266ac6539740b82ff8184516ae7a46758f45fb526",
+      "prior_tf_gene.csv": "02c458ffe9f326d39583ce27b80c1158129dd9e11369919995111d5e807fcd5b",
+      "prior_lr_tf.csv": "5428c4204b651d5f2f0a9ed7244664fbe40bd11bdaf038b8bd5b9ab8d8ded668",
+      "evaluation_tfs.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+      "evaluation_targets.csv": "b2fa5455761dac9cd53b50521a77d72c0e28f0332b9abfbfed4fe17ab5f07795"
+    },
+    "truth_read": false,
+    "convergence": {
+      "convergence_rate": 1.0,
+      "all_diagnostic_rate": 1.0,
+      "failed_diagnostics": 0,
+      "diagnostics": 268,
+      "module_rates": {
+        "base_grn": 1.0,
+        "communication_rewiring": 1.0
+      },
+      "joint_applicable": true,
+      "joint_converged": true,
+      "convergence_passed": true,
+      "convergence_policy": "v3_per_module_and_undamped_joint",
+      "minimum_convergence_rate": 0.9
+    },
+    "fitted_tfs": 20,
+    "fitted_targets": 134,
+    "candidate_coverage": 2400,
+    "prediction_sha256": "917b60895367009790b36aabaad95a6e57b447c38dc317f902f3b1f6ab6ad7e6",
+    "reference_zero_exposure_sha256": "917b60895367009790b36aabaad95a6e57b447c38dc317f902f3b1f6ab6ad7e6",
+    "communication_delta_sha256": "1ff6f86c1956fff4c2405d5a9f40a9bae98f496960b9dd30790d1e90c3c37004",
+    "reference_definition": "same fit, LR exposure set to zero in fitted coefficient scale",
+    "reference_is_causal_counterfactual": false
+  },
+  "exit_code": 0,
+  "peak_sampled_worker_tree_rss_bytes": 277368832,
+  "observed_descendants": [],
+  "memory_measurement": "sampled RSS, not an OS allocation cap or guaranteed instantaneous peak",
+  "runtime_seconds": 1140.5780000000013,
+  "finished_epoch": 1790329024.8799255
+}

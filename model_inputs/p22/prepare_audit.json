@@ -1,0 +1,38 @@
+{
+  "raw_spots": 9215,
+  "empty_rna_spots_excluded": 1,
+  "gene_mapping": "GEO gene symbols",
+  "dataset": "gse205055_p22",
+  "selected_spots": 500,
+  "input_genes": 154,
+  "tfs": [
+    "Myt1l",
+    "Hmgb1",
+    "Smarca4",
+    "Kmt2e",
+    "Kmt2a",
+    "Chd4",
+    "Son",
+    "Arid4a",
+    "Zbtb20",
+    "Dnmt3a",
+    "Nfe2l1",
+    "Flywch1",
+    "Atrx",
+    "Lmo4",
+    "Pura",
+    "Zbtb7a",
+    "Ash1l",
+    "Zeb2",
+    "Thra",
+    "Bcl11b"
+  ],
+  "targets": 120,
+  "lr_pairs": 20,
+  "reference_sources_read": false,
+  "seed": 20260925,
+  "raw_input_hashes": {
+    "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\data\\raw\\Data0925\\GSM6753043_MouseBrain_20um_100barcodes_ATAC_matrix.tsv.gz": "f1e1a9271cac9765772bb3d0d125efe04b1733bd0edaee69f7448c40d0aab4ab",
+    "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\data\\raw\\Data0925\\GSM6753043_MouseBrain_20um_100barcodes_ATAC_spatial.tar.gz": "03b87ecdeabd818ebf1fec464c2932bc11fa70cc3c5a5793de88912157c4c388"
+  }
+}

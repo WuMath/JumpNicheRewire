@@ -1,0 +1,13 @@
+{
+  "case": "case_human_breast_cancer",
+  "spots": 2518,
+  "fitted_tfs": 2,
+  "fitted_targets": 148,
+  "selected_edge": [
+    "FOS",
+    "CD74"
+  ],
+  "selected_edge_delta_q90_minus_q10": 0.10527586975969094,
+  "selected_edge_mean_abs_delta": 0.02217484262349027,
+  "dominant_lr_component": "APOE__LRP1"
+}

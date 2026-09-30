@@ -1,0 +1,23 @@
+{
+  "case": "case_human_breast_cancer",
+  "spots": 2518,
+  "fitted_tfs": 2,
+  "fitted_targets": 148,
+  "selected_edge": [
+    "FOS",
+    "CD74"
+  ],
+  "selected_edge_delta_q90_minus_q10": 0.10527586975969094,
+  "selected_edge_mean_abs_delta": 0.02217484262349027,
+  "dominant_lr_component": "APOE__LRP1",
+  "pathway_tests": 28,
+  "pathway_fdr05": 0,
+  "best_pathway": "Affected Pathways In Duchenne Muscular Dystrophy WP5356",
+  "best_q": 1.0,
+  "causal_diagnostics_passed": 0,
+  "causal_diagnostics_total": 2848,
+  "reconstruction_max_abs_error": 1.4197220872882998e-15,
+  "model_status_sha256": "cfa98589a975f1241a9d943529db45680e22a248954942c270108d45112a00f5",
+  "coefficient_sha256": "123c75be90e1c6809f7d956ccfd974695ba7e4e4df01b6c8021d86c0a6dee9f4",
+  "reference_scope": "RNA-only, 1 tissue section, expression-derived clusters, model-internal delta; no causal proof"
+}

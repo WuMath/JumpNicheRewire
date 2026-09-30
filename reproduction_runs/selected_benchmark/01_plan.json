@@ -1,0 +1,171 @@
+{
+  "schema": "selected_benchmark_1",
+  "selection": {
+    "datasets": [
+      "scmultisim",
+      "gse205055_p22"
+    ],
+    "methods": [
+      "JumpNicheRewire",
+      "CeSpGRN",
+      "CLR",
+      "GENIE3",
+      "GRNBoost2",
+      "PPCOR",
+      "RegDiffusion"
+    ],
+    "output_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark",
+    "sc_input": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim",
+    "real_input_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input",
+    "real_reference_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\02_reference",
+    "motif_catalog": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reference_data\\motif_tf_gene.parquet",
+    "model_python": "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+    "tree_python": "C:\\Anaconda\\envs\\jnr-trees-clean\\python.exe",
+    "cesp_python": "C:\\Anaconda\\envs\\jnr-cespgrn\\python.exe",
+    "reg_python": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\vendor\\external_methods\\RegDiffusion\\venv\\Scripts\\python.exe",
+    "cell_python": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\data\\result\\optimization_20260921\\single_dataset_extension\\CellOracle\\venv\\Scripts\\python.exe",
+    "rscript": "D:\\SoftWare\\R\\R-4.4.1\\bin\\Rscript.exe",
+    "r_library": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\R_library",
+    "r_software": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\software",
+    "cesp_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\CeSpGRN\\src",
+    "reg_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion",
+    "cell_package": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\data\\result\\optimization_20260921\\single_dataset_extension\\CellOracle\\venv\\Lib\\site-packages\\celloracle",
+    "seed": 20260925,
+    "l1_penalty": 0.075,
+    "fusion_penalty": 0.0005,
+    "group_penalty": 0.01,
+    "ridge_penalty": 0.0001,
+    "spatial_permutations": 99,
+    "maximum_new_gib": 15.0,
+    "cumulative_storage_limit": 16106127360,
+    "maximum_worker_rss_gib": 3.5,
+    "worker_rss_limit": 3758096384,
+    "minimum_available_ram_gib": 1.5,
+    "minimum_available_ram": 1610612736,
+    "minimum_free_disk_gib": 5.0,
+    "minimum_disk_free": 5368709120,
+    "maximum_task_hours": 4.0,
+    "task_limit_seconds": 14400,
+    "storage_reserve_bytes": 268435456,
+    "budget_roots": [
+      "D:\\Phd\\GRN\\P1\\JumpnicheRewire"
+    ]
+  },
+  "expanded_tasks": [
+    [
+      "scmultisim",
+      "JumpNicheRewire"
+    ],
+    [
+      "scmultisim",
+      "CeSpGRN"
+    ],
+    [
+      "scmultisim",
+      "CLR"
+    ],
+    [
+      "scmultisim",
+      "GENIE3"
+    ],
+    [
+      "scmultisim",
+      "GRNBoost2"
+    ],
+    [
+      "scmultisim",
+      "PPCOR"
+    ],
+    [
+      "scmultisim",
+      "RegDiffusion"
+    ],
+    [
+      "gse205055_p22",
+      "JumpNicheRewire_base"
+    ],
+    [
+      "gse205055_p22",
+      "JumpNicheRewire_communication"
+    ],
+    [
+      "gse205055_p22",
+      "CeSpGRN"
+    ],
+    [
+      "gse205055_p22",
+      "CLR"
+    ],
+    [
+      "gse205055_p22",
+      "GENIE3"
+    ],
+    [
+      "gse205055_p22",
+      "GRNBoost2"
+    ],
+    [
+      "gse205055_p22",
+      "PPCOR"
+    ],
+    [
+      "gse205055_p22",
+      "RegDiffusion"
+    ]
+  ],
+  "files": {
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\expression.csv": "3a7c210f4c8448078b10e030acf92a2843f210b3f9ec97fe553d30caa1d8d8f0",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\coordinates.csv": "aff53fa479e96cc99302ef53ed86841ea445ac531e8600170bccbe63bab50718",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\metadata.csv": "661ab9ad443b3babfac41066c3738f99129f630d3ce79b44bc23867d3d170a87",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\tf_list.csv": "03a670301f9f170fe9c61f6c9a0bc57e85b967d767e1a5b116073af3636328c2",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\lr_pairs.csv": "6192b74f4c21355d0c51065a7812820b6887be6e01feb3f2346bbff73abb0f9b",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\prior_tf_gene.csv": "02c458ffe9f326d39583ce27b80c1158129dd9e11369919995111d5e807fcd5b",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\prior_lr_tf.csv": "5428c4204b651d5f2f0a9ed7244664fbe40bd11bdaf038b8bd5b9ab8d8ded668",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\evaluation_targets.csv": "f54d006350d8a544308c576761aadabc1f732e2fb324c71d2bb93199b32d3184",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim\\evidence_manifest.json": "265939f57dd27e5f8b5992c56561c7196d4fe7d9ca502ab7ad917b1ff24f650d",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\expression.csv": "49ac11b5e03df92fc6fd1d3d9d8d3321e54aeeb236440747796f3ea46c83d2c6",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\coordinates.csv": "dff644422dddac12fe64233ea98255546e311644eed70ab39dd2980c90721475",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\metadata.csv": "b4c00ed04cbc10352a2c61d079cea04b2af6c8f3dcb79df24aeb101b89689580",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\tf_list.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\lr_pairs.csv": "389c4eff7efadba2753b96a266ac6539740b82ff8184516ae7a46758f45fb526",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\prior_tf_gene.csv": "02c458ffe9f326d39583ce27b80c1158129dd9e11369919995111d5e807fcd5b",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\prior_lr_tf.csv": "5428c4204b651d5f2f0a9ed7244664fbe40bd11bdaf038b8bd5b9ab8d8ded668",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\evaluation_tfs.csv": "0e9ad9a54306419a53816c3b446862f34a3a5f344fb7a6fa4b506b4fc8f8d455",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22_aux\\01_model_input\\gse205055_p22\\evaluation_targets.csv": "b2fa5455761dac9cd53b50521a77d72c0e28f0332b9abfbfed4fe17ab5f07795",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\selected_benchmark\\workflow.py": "728b71e76dfcbcb1770392c35d01e3bdc8cb3676772aa78cfaf267be6610703a",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\reports\\run_manual_scmultisim.py": "b0b98556cc01a69bc031cda5bee8466bafef9d2ec509737de243df3be7a04175",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\selected_benchmark\\sc_worker.py": "944b09db051f204fd1998447e529df9d4929af94209546757858bda48bde5da4",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\selected_benchmark\\real_worker310.py": "af0731236afc4cfc62d65f68f267490b0074f1ff2a59e61fdc371569fc6b1804",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\real_support_benchmark\\workers.py": "526f86186c4bfcde829f6b5f728f11afc5455ef054e798e1b08231da40beadc3",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\real_support_benchmark\\extension_workers.py": "580453ff539ab2fe70c6ade5b629f3e4c2b2c43a99fa47431a820addce6c3839",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\real_support_benchmark\\cespgrn_worker39.py": "3f321e31897eba3ec15ab98ae4d9aae0e529d9f52524c5bb5ef11897c647f58d",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\real_support_benchmark\\extension_worker310.py": "a82fb14e5ffa1559cca2045a3f6f80d63ae8adf2ba2b25084c697f73cde3b698",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\real_support_benchmark\\tigress_two_tf_compat.R": "f44de970c5cb16619bae722e00f80904abfc5946816bf562587322cc8d72c826",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\benchmark_optimization\\official_r.R": "8dafa333e4282141709437735f11648e7d3711872000570ae4ec7de61a52cea8",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\communication_benchmark\\jnr_one_hour.py": "b38012e5af527c95f713d2d4c4745f5ae1c1f2c96248ff3b2f94f40d74076b28",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\communication_benchmark\\cespgrn_one.py": "3fc3f7541d162d13ef7894e56e6f1628fdc364ea5aef4dc90b5afa47407b0448",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\communication_benchmark\\regdiffusion_one.py": "6066b878d6706b6b4f144a2be11e16e83fe004e581193b77cf3d698ff4ee30cc",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\communication_benchmark\\celloracle_core_one.py": "71221b553b82c2a2571fb14544463ce94e328de9d2c76785aeaed639d5ab3495",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\CeSpGRN\\src\\g_admm.py": "6ca66586baae8dc3a052187cc536385261d593ba02fa9022066297e039c10615",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\CeSpGRN\\src\\kernel.py": "d01e372f0851db25b47980884bccec68c4f02b21bd19481cb4035c3376ac988d",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\CeSpGRN\\src\\torch_sqrtm.py": "1f881b819ec1e430546592b136c87cf20695c430dc217cec8c55326d4691f696",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\__init__.py": "d2fb99e7bc70f0185ff757dc09f5cf358fe82e6ac7b6f7010a3c4e04caa8dc45",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\cli.py": "13682b92f45a823e4fd8f193ed8bfa7d73935f922fceb5e06fd42d87636ffe3b",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\data\\__init__.py": "1be783c9882363dc6abbdbfa98decfcb5d742f3f0ee9c0ee73870c00511e7184",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\data\\beeline.py": "446baf209ea1bc023b21600fe3ee2a2223b5d1f6a45fbb608230cf0d8dab97dc",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\data\\microglia.py": "2a10f4ee866588c299d8f6b1748651cb1ad11c442daf99153f1215af67883b1a",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\data\\utils.py": "8c5f79b9e532cc8f5f8499494374a45cb3867e26d3e9886a66a9316d57cf015c",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\evaluator.py": "45824bd9ce5d7d50788571946c8e15e4eb713cc9bcd5d96a63eba1185cd29a45",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\grn.py": "2d3f1e36f7967f58fbbb76f8fca1b0d450e147d086699097e2de03fefb58b95d",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\logger.py": "95da34b53db02bb1a21dac71f4e82d106a16f0d2003d51f664c8a6e862366566",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\models\\__init__.py": "068e7e44a8d02d2259d8fe8c9ca47c3bf6a81e32a0540174275fbd50b864731c",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\models\\regdiffusion.py": "dfe6af73e22ece3bcaea14961750f669d17de878e807df955ae322c94aa90bcb",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\models\\regdiffusion_me.py": "fc8916e96382f91424f5ff256915c6417b06b711ead778d8a83e97222ef0f472",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\plot\\__init__.py": "7fb1c42e00c90ded6b667507d1e0dcf1e4d454b72a4e5a66e5f0f03cfd4ff9d7",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\plot\\interactive.py": "69298cda3db8c67fe55eba1dbeec9c3c3c681c972631492ec8aefb4bb4ebd178",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\plot\\static.py": "6e10c1fb107c0bedd90d42a80c96a82d073412a11762070ef5afac63f52fa72a",
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion\\regdiffusion\\trainer.py": "285556101d5ce7fc159bce305c076bf8ae9ebe79f2eede82fbc520b6b096f260"
+  },
+  "reference_read_by_fit": false,
+  "reference_role": "evaluation only; unsupported edges are not verified negatives"
+}

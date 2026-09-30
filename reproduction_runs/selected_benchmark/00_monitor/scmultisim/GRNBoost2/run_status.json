@@ -1,0 +1,45 @@
+{
+  "state": "completed",
+  "controller": {
+    "pid": 26988,
+    "process_started": 1790746583.5144787,
+    "command": [
+      "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+      ".\\model_code\\main_jumpniche.py"
+    ],
+    "token": "266db48f73b24373aee5020f63f9ecda"
+  },
+  "started_epoch": 1790748119.1854055,
+  "attempt_token": "266db48f73b24373aee5020f63f9ecda",
+  "pid": 22136,
+  "process_started": 1790748119.177541,
+  "command": [
+    "C:\\Anaconda\\envs\\jnr-trees-clean\\python.exe",
+    "-c",
+    "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=26988, pipe_handle=2496)",
+    "--multiprocessing-fork"
+  ],
+  "result": {
+    "state": "completed",
+    "dataset": "scmultisim",
+    "method": "GRNBoost2",
+    "prediction_sha256": "0e848695803335c39e205d5550534116295b65509b8ebec7686baf75fb30d18c"
+  },
+  "exit_code": 0,
+  "peak_sampled_worker_tree_rss_bytes": 260886528,
+  "observed_descendants": [
+    {
+      "pid": 22920,
+      "process_started": 1790748123.6933403,
+      "command": [
+        "C:\\Anaconda\\envs\\jnr-trees-clean\\python.exe",
+        "-c",
+        "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=22136, pipe_handle=1368)",
+        "--multiprocessing-fork"
+      ]
+    }
+  ],
+  "memory_measurement": "sampled RSS, not an OS allocation cap or guaranteed instantaneous peak",
+  "runtime_seconds": 15.014999999984866,
+  "finished_epoch": 1790748134.1976154
+}

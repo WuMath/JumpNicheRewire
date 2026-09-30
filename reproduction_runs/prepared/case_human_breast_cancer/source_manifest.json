@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-09-30T04:23:17.694160+00:00",
+  "mode": "offline_preprocess",
+  "configuration": {
+    "matrix_h5": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\case_human_breast_cancer\\Visium_FFPE_Human_Breast_Cancer_filtered_feature_bc_matrix.h5",
+    "spatial_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\case_human_breast_cancer\\Visium_FFPE_Human_Breast_Cancer_spatial.tar.gz",
+    "reference_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\references_human",
+    "output_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\case_human_breast_cancer",
+    "tissue_only": true,
+    "maximum_spots": null,
+    "maximum_genes": 600,
+    "maximum_tfs": 12,
+    "maximum_lr_pairs": 40,
+    "minimum_detected_spots": 8,
+    "random_seed": 20260920,
+    "sample_id": "Visium_FFPE_Human_Breast_Cancer",
+    "cell_type_label": "NA",
+    "region_label": "global",
+    "condition_label": "tumor"
+  },
+  "source_files": {
+    "matrix_h5": {
+      "path": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\case_human_breast_cancer\\Visium_FFPE_Human_Breast_Cancer_filtered_feature_bc_matrix.h5",
+      "bytes": 14030242,
+      "sha256": "64321f603f7200b0bedffbe353c04dde72bbe7c7be7390e503d955aa9b2584c5"
+    },
+    "spatial_source": {
+      "path": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\case_human_breast_cancer\\Visium_FFPE_Human_Breast_Cancer_spatial.tar.gz",
+      "bytes": 8316248,
+      "sha256": "2937fcc44b7adee70f162a9e09857410dcf22eed89a3e3187950dfc1574fea14"
+    },
+    "reference_tf": {
+      "path": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\references_human\\tf_list.csv",
+      "bytes": 8079,
+      "sha256": "e86d29a501126dd37ac22d89d5ec0980ebbf7e1d69197d82a54250b1b19ca32f"
+    },
+    "reference_lr": {
+      "path": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\references_human\\lr_pairs.csv",
+      "bytes": 124746,
+      "sha256": "d819208303f4fc5a492c2df2ac4a6f9080de7db513637c9a9bb8f840ffd899b4"
+    },
+    "reference_prior": {
+      "path": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\raw_data\\references_human\\prior_tf_gene.csv",
+      "bytes": 1504714,
+      "sha256": "677d5d25f4575c435bea70c109f4f889799cfbd6e832c65030f922a42faff9d9"
+    }
+  },
+  "notes": [
+    "Expression values are raw filtered 10x counts; use expression_is_normalized=False.",
+    "Coordinates are full-resolution image pixels from Space Ranger.",
+    "region=global and cell_type=NA are placeholders, not inferred annotations."
+  ]
+}

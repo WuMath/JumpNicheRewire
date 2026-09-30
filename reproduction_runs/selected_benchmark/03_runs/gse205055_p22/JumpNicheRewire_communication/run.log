@@ -1,0 +1,58 @@
+[input] 0.04s
+[module 1] mode=spatial; 20 TFs, 134 targets, 2790 spatial edges, 0.33s
+[module 3 priors] 0.00s
+[module 2] 20 TFs x 134 targets, 6m 38.3s
+[module 4 exposure] 0.08s
+[joint 1] fixed_point=2.11, beta_change=0, inner=100.0%
+[joint 2] fixed_point=0.59, beta_change=0, inner=100.0%
+[joint 3] fixed_point=0.233, beta_change=0, inner=100.0%
+[joint 4] fixed_point=0.105, beta_change=0, inner=100.0%
+[joint 5] fixed_point=0.05, beta_change=0, inner=100.0%
+[joint 6] fixed_point=0.0244, beta_change=0, inner=100.0%
+[joint 7] fixed_point=0.0121, beta_change=0, inner=100.0%
+[joint 8] fixed_point=0.006, beta_change=0, inner=100.0%
+[joint 9] fixed_point=0.00299, beta_change=0, inner=100.0%
+[joint 10] fixed_point=0.00149, beta_change=0, inner=100.0%
+[joint 11] fixed_point=0.000747, beta_change=0, inner=100.0%
+[joint 12] fixed_point=0.000373, beta_change=0, inner=100.0%
+[joint 13] fixed_point=0.000187, beta_change=0, inner=100.0%
+[joint 14] fixed_point=9.33e-05, beta_change=0, inner=100.0%
+[checkpoint] D:\Phd\GRN\P1\JumpnicheRewire\reproduction_runs\selected_benchmark\03_runs\gse205055_p22\JumpNicheRewire_communication\numerical_checkpoint.pkl
+[module 4 output build] 0.31s
+[output parquet] base_grn: 20000 rows
+[output parquet] run_info: 14 rows
+[output parquet] input_audit: 11 rows
+[output parquet] timings: 7 rows
+[output parquet] spatial_genes: 154 rows
+[output parquet] spatial_edges: 2790 rows
+[output parquet] grn_edges: 20000 rows
+[output parquet] lr_gene: 0 rows
+[output parquet] receptor_paths: 0 rows
+[output parquet] cci_edges: 125059 rows
+[output parquet] regulon_activity: 10000 rows
+[output parquet] causal_edges: 0 rows
+[output parquet] convergence: 269 rows
+[output parquet] convergence_history: 36590 rows
+[output xlsx preview] spatial_edges: 200 of 2790 rows; full table is Parquet
+[output xlsx preview] base_grn: 200 of 20000 rows; full table is Parquet
+[output xlsx preview] grn_edges: 200 of 20000 rows; full table is Parquet
+[output xlsx preview] cci_edges: 200 of 125059 rows; full table is Parquet
+[output xlsx preview] regulon_activity: 200 of 10000 rows; full table is Parquet
+[output xlsx preview] convergence: 200 of 269 rows; full table is Parquet
+[output xlsx preview] convergence_history: 200 of 1000 rows; full table is Parquet
+[output xlsx] excel_manifest: 14 rows
+[output xlsx] run_info: 14 rows
+[output xlsx] input_audit: 11 rows
+[output xlsx] timings: 7 rows
+[output xlsx] spatial_genes: 154 rows
+[output xlsx] spatial_edges: 200 rows
+[output xlsx] base_grn: 200 rows
+[output xlsx] grn_edges: 200 rows
+[output xlsx] lr_gene: 0 rows
+[output xlsx] receptor_paths: 0 rows
+[output xlsx] cci_edges: 200 rows
+[output xlsx] regulon_activity: 200 rows
+[output xlsx] causal_edges: 0 rows
+[output xlsx] convergence: 200 rows
+[output xlsx] convergence_history: 200 rows
+[output] D:\Phd\GRN\P1\JumpnicheRewire\reproduction_runs\selected_benchmark\03_runs\gse205055_p22\JumpNicheRewire_communication\JumpNicheRewire_results.xlsx

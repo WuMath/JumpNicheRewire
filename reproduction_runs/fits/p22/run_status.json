@@ -1,0 +1,24 @@
+{
+  "dataset": "p22",
+  "state": "completed",
+  "input_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\p22",
+  "config_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_fits\\p22\\model_config.json",
+  "convergence": {
+    "convergence_rate": 1.0,
+    "all_diagnostic_rate": 1.0,
+    "failed_diagnostics": 0,
+    "diagnostics": 268,
+    "module_rates": {
+      "base_grn": 1.0,
+      "communication_rewiring": 1.0
+    },
+    "joint_applicable": true,
+    "joint_converged": true,
+    "convergence_passed": true,
+    "convergence_policy": "v3_per_module_and_undamped_joint",
+    "minimum_convergence_rate": 0.9
+  },
+  "edges": 2680,
+  "global_grn_sha256": "c4bea84ce2fca26c17ecb91e4b977694bb7726ce45117d2570c11b5c231e8569",
+  "runtime_seconds": 950.4435331999848
+}

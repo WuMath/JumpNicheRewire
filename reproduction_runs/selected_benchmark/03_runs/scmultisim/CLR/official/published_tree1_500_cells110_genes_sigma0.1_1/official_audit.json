@@ -1,0 +1,6 @@
+{
+  "method": "CLR",
+  "constant_genes": "gene84",
+  "projection": "TF-to-nonTF candidate projection; CLR/PPCOR are symmetric association methods",
+  "R": "R version 4.4.1 (2024-06-14 ucrt)"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "case": "case_mouse_kidney",
+    "spots": 3124,
+    "fitted_edges": 441,
+    "input_expression_sha256": "ed2e3bb7eaf54233da31d6f46f5cf6b45ca4f4bbf20461c724aceea05999c18f",
+    "input_metadata_sha256": "ca36b529a0e5b423a88aceb40bcb29177be573654ad75fd878ae4cc04464e123",
+    "input_lr_sha256": "afa806e72324b20f9533d1e85725424eb1c766bf26674bc2bdd477b35980c59e",
+    "fit_coefficients_sha256": "b8233f5945676e468ee6846c5c004259f185f93c3f04ada7668282a8f5239f7d",
+    "fit_exposure_sha256": "1578ecc3ce4d1dc7e9a659bad125bf23b6de6c96414ffb2e50adb55d4fcb20e3",
+    "quantile_method": "linear",
+    "ranking": "descending q90-minus-q10; TF and target break ties"
+  },
+  {
+    "case": "case_human_breast_cancer",
+    "spots": 2518,
+    "fitted_edges": 296,
+    "input_expression_sha256": "20720b4604a7bd08f7ccab62422a58614ca0ac72436f1eff9c7b6d713c023ac2",
+    "input_metadata_sha256": "96c43d1f55b6ac3e625991e3603504b90bce00961833c55dcc1dc7d969381585",
+    "input_lr_sha256": "76aa2daa5c6372a06af55704c42b3b9c0928af10d339cefa022f86a09c6278b7",
+    "fit_coefficients_sha256": "123c75be90e1c6809f7d956ccfd974695ba7e4e4df01b6c8021d86c0a6dee9f4",
+    "fit_exposure_sha256": "5439bc4dbf5fb591cc24055f215a85f2f6b0996ec8de836ce2ace886de9f1113",
+    "quantile_method": "linear",
+    "ranking": "descending q90-minus-q10; TF and target break ties"
+  }
+]

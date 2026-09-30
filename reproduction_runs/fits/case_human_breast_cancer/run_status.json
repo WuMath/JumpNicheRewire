@@ -1,0 +1,24 @@
+{
+  "dataset": "case_human_breast_cancer",
+  "state": "completed",
+  "input_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\case_human_breast_cancer",
+  "config_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_fits\\case_human_breast_cancer\\model_config.json",
+  "convergence": {
+    "convergence_rate": 1.0,
+    "all_diagnostic_rate": 1.0,
+    "failed_diagnostics": 0,
+    "diagnostics": 296,
+    "module_rates": {
+      "base_grn": 1.0,
+      "communication_rewiring": 1.0
+    },
+    "joint_applicable": true,
+    "joint_converged": true,
+    "convergence_passed": true,
+    "convergence_policy": "v3_per_module_and_undamped_joint",
+    "minimum_convergence_rate": 0.9
+  },
+  "edges": 296,
+  "global_grn_sha256": "4d945a0bf121deb3e97af989492d280212123ff056c14f7c98ff0ab85cc0ec7a",
+  "runtime_seconds": 2502.3982620000024
+}

@@ -1,0 +1,6 @@
+item,value
+cells_or_spots,3124
+genes,600
+expressed_tfs,12
+lr_pairs,40
+tf_gene_prior_edges,152

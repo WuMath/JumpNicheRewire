@@ -1,0 +1,24 @@
+{
+  "dataset_id": "case_mouse_kidney",
+  "evidence_track": "application",
+  "source": "https://www.10xgenomics.com/datasets/adult-mouse-kidney-ffpe-1-standard-1-3-0",
+  "evaluation_scope": "pathway_application",
+  "truth_kind": "no_complete_network_truth",
+  "species": "mouse",
+  "tissue": "mouse_kidney",
+  "dataset_dir": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\processed\\publication_20260920\\case_mouse_kidney",
+  "truth_dir": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\processed\\publication_20260920\\case_mouse_kidney\\truth",
+  "cells": 3124,
+  "genes": 600,
+  "notes": "All tissue spots; single section; expression clusters not biological labels; association only.",
+  "files": {
+    "expression.csv": "ed2e3bb7eaf54233da31d6f46f5cf6b45ca4f4bbf20461c724aceea05999c18f",
+    "coordinates.csv": "15f66a63a6af4e0d19f2aefb0f3b52f1bc340c39782721cfe7677a687c3c6401",
+    "metadata.csv": "ca36b529a0e5b423a88aceb40bcb29177be573654ad75fd878ae4cc04464e123",
+    "tf_list.csv": "56b36ae5f9b45e4e166f71c5480c8f894db535d1b5c4be349adf7c7b970535be",
+    "lr_pairs.csv": "afa806e72324b20f9533d1e85725424eb1c766bf26674bc2bdd477b35980c59e",
+    "prior_tf_gene.csv": "5491d216a9c555a9a1b3526abc408974f55fdd4db81898059b7a09cf9dfd167f",
+    "prior_lr_tf.csv": "ef68d856ed123545d6464517e5c3f726e25de5df544e90ebf6ab74775bee49f9"
+  },
+  "signature": "cb9919b762e2b21febb502b81c594407e5c1c25321699e16761c5d14acea09de"
+}

@@ -1,0 +1,45 @@
+{
+  "state": "completed",
+  "dataset_id": "published_tree1_500_cells110_genes_sigma0.1_1",
+  "method": "CeSpGRN",
+  "candidate": "spatial_default",
+  "source": {
+    "dataset": "published_tree1_500_cells110_genes_sigma0.1_1",
+    "input_sha256": {
+      "expression.csv": "3a7c210f4c8448078b10e030acf92a2843f210b3f9ec97fe553d30caa1d8d8f0",
+      "coordinates.csv": "aff53fa479e96cc99302ef53ed86841ea445ac531e8600170bccbe63bab50718",
+      "metadata.csv": "661ab9ad443b3babfac41066c3738f99129f630d3ce79b44bc23867d3d170a87",
+      "tf_list.csv": "03a670301f9f170fe9c61f6c9a0bc57e85b967d767e1a5b116073af3636328c2",
+      "lr_pairs.csv": "6192b74f4c21355d0c51065a7812820b6887be6e01feb3f2346bbff73abb0f9b"
+    },
+    "author_commit": "2fb222f8a26edf1bdae14a95b1491543f0aaa4e8",
+    "official_git_blobs": {
+      "g_admm.py": "448b49fb79acc798f1c6c7d54e5bdd28945ead7b",
+      "kernel.py": "9179ff9c9f30f4aa6c4b863a4349383c0cfe57a2",
+      "torch_sqrtm.py": "4de49f9c74662b341184b0b339c95c38dab5efc3"
+    },
+    "parameters": {
+      "kernel_input": "spatial",
+      "kernel_k": 5,
+      "bandwidth": 1.0,
+      "neighbors": 30,
+      "lamb": 0.1,
+      "max_iters": 1000,
+      "batch_size": 32,
+      "seed": 20260923,
+      "covariance_weighted_kt": true,
+      "device": "cpu"
+    },
+    "inference_truth_files_read": false,
+    "model_task": "undirected cell-specific association; TF projection to common GRN edges"
+  },
+  "cells": 500,
+  "genes": 110,
+  "tf_target_edges": 624,
+  "graph_sha256": "003bcf8f5658a7e0f9e5d49e404efca444ff63a96e822b27e077c098cc907394",
+  "global_sha256": "84399d4cb873c541554d724d8b7ecef38a2ef42814f797b77db50fc4b98acc6c",
+  "full_method_native_lr_decomposition": false,
+  "peak_sampled_rss_bytes": 604565504,
+  "worker_exit_code": 0,
+  "sampled_cumulative_storage_bytes": 4461808424
+}

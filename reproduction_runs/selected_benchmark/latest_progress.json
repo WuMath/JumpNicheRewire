@@ -1,0 +1,7 @@
+{
+  "dataset": "gse205055_p22",
+  "method": "RegDiffusion",
+  "completed": 15,
+  "expected": 15,
+  "as_of_utc": "2026-09-30T07:11:08.576528+00:00"
+}

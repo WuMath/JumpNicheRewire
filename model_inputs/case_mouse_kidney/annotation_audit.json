@@ -1,0 +1,10 @@
+{
+  "method": "PCA10_KMeans6",
+  "seed": 20260920,
+  "labels_are_cell_types": false,
+  "labels_are_validated_anatomical_regions": false,
+  "all_tissue_spots_retained": true,
+  "biological_samples": 1,
+  "independent_activity": false,
+  "perturbation": false
+}

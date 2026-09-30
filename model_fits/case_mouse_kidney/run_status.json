@@ -1,0 +1,33 @@
+{
+  "dataset_id": "case_mouse_kidney",
+  "method": "JumpNicheRewire",
+  "state": "completed",
+  "pid": 17616,
+  "input_signature": "cb9919b762e2b21febb502b81c594407e5c1c25321699e16761c5d14acea09de",
+  "started_epoch": 1789939460.217213,
+  "split": "case",
+  "convergence_rate": 1.0,
+  "all_diagnostic_rate": 1.0,
+  "failed_diagnostics": 0,
+  "diagnostics": 294,
+  "module_rates": {
+    "base_grn": 1.0,
+    "communication_rewiring": 1.0
+  },
+  "joint_applicable": true,
+  "joint_converged": true,
+  "convergence_passed": true,
+  "convergence_policy": "v3_per_module_and_undamped_joint",
+  "minimum_convergence_rate": 0.9,
+  "prediction_sha256": "d8d861c2dc3ea099bea0aa838573e30d658b12859f725ba17e5415329b8fd2c5",
+  "runtime_seconds": 6550.656182999999,
+  "finished_epoch": 1789946010.8746722,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.2"
+  },
+  "exit_code": 0,
+  "peak_rss_gib": 1.2018547058105469,
+  "implementation_hash": "3493b442e09f32f4dad809f778d82ec17692fa5692fc453596d75a9d70aaecce"
+}

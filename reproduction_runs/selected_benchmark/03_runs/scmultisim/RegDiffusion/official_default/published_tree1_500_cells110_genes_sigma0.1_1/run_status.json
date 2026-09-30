@@ -1,0 +1,56 @@
+{
+  "state": "completed",
+  "dataset_id": "published_tree1_500_cells110_genes_sigma0.1_1",
+  "method": "RegDiffusion",
+  "candidate": "official_default",
+  "source": {
+    "dataset": "published_tree1_500_cells110_genes_sigma0.1_1",
+    "input_sha256": {
+      "expression.csv": "3a7c210f4c8448078b10e030acf92a2843f210b3f9ec97fe553d30caa1d8d8f0",
+      "coordinates.csv": "aff53fa479e96cc99302ef53ed86841ea445ac531e8600170bccbe63bab50718",
+      "metadata.csv": "661ab9ad443b3babfac41066c3738f99129f630d3ce79b44bc23867d3d170a87",
+      "tf_list.csv": "03a670301f9f170fe9c61f6c9a0bc57e85b967d767e1a5b116073af3636328c2",
+      "lr_pairs.csv": "6192b74f4c21355d0c51065a7812820b6887be6e01feb3f2346bbff73abb0f9b"
+    },
+    "author_commit": "0af2d95a8751df791f7efb07825087a6c3ac3fe6",
+    "official_git_blobs": {
+      "regdiffusion/__init__.py": "8a860ae54014f6b75ee495c1c4687616dd5379ab",
+      "regdiffusion/cli.py": "3ef68fe72da924e752a8a5db588cc6a606100cab",
+      "regdiffusion/data/__init__.py": "fdcfb6f944a5202b264ffa0437aa9cd5aea8a7f5",
+      "regdiffusion/data/beeline.py": "9991905ba69d639aa016a11c643052b34f7c3fe2",
+      "regdiffusion/data/microglia.py": "272172fb021f4e702598a18e46610f84fa0f16c2",
+      "regdiffusion/data/utils.py": "b8a6877d1746acd690fbda206737fd6ed93bdc9e",
+      "regdiffusion/evaluator.py": "5420429581017e4981ca5cde2f7e5bfea12f0689",
+      "regdiffusion/grn.py": "58a85da4d6c5f65b9750df51e90ffb3b0f8d742e",
+      "regdiffusion/logger.py": "6459081c1ba055b75d1649eb425eccd04e5d3bd9",
+      "regdiffusion/models/__init__.py": "42810ea26b5f94c29571d5b1f26f6ffe2fb92dd6",
+      "regdiffusion/models/regdiffusion.py": "f5e0ebcb9fd415de3d39baa66246a6e36eb163a5",
+      "regdiffusion/models/regdiffusion_me.py": "9b1c31bec97427619483e068fc9a57d2e3871d29",
+      "regdiffusion/plot/__init__.py": "3e4a943a8db4c59c1853ea9aeea5e7cd4c3ad024",
+      "regdiffusion/plot/interactive.py": "c7261bfbdb10a2cc956e21d6629a6eadb67ac9c9",
+      "regdiffusion/plot/static.py": "689774de7812d0ba0d49f133694e323aec9b0d70",
+      "regdiffusion/trainer.py": "3b09499552d1673f7d919096697419dacbcabe7c"
+    },
+    "source_manifest_sha256": "78941f7c2acc820b61fcce4d6c32cac8ca6b16b1b804c41d694b3b684e745e3b",
+    "parameters": {
+      "n_steps": 1000,
+      "seed": 20260923,
+      "device": "cpu",
+      "other_hyperparameters": "official defaults",
+      "normalization": "log1p(10000*counts/library)",
+      "zero_variance_filter": "input-only; zero score on removed genes"
+    },
+    "inference_truth_files_read": false
+  },
+  "fit_genes": 109,
+  "removed_zero_variance": [
+    "gene84"
+  ],
+  "tf_target_edges": 624,
+  "adjacency_sha256": "a092265434633edd153b226f2fa7efe8bfca406d8af8f20bde5d40a3ef6f73c0",
+  "global_sha256": "5e97254bd6a701651a29d6f1ef1e309fda1b074d730f1f56789bbc4f2b03c39e",
+  "full_method_native_lr_decomposition": false,
+  "peak_sampled_rss_bytes": 406196224,
+  "worker_exit_code": 0,
+  "sampled_cumulative_storage_bytes": 4475782644
+}

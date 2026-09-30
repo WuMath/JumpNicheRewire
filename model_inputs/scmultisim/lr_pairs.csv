@@ -1,0 +1,7 @@
+ligand,receptor,lr_id,signal_type,rho,confidence
+gene101,gene2,gene101__gene2,secreted,1.0,1.0
+gene102,gene6,gene102__gene6,secreted,1.0,1.0
+gene103,gene10,gene103__gene10,secreted,1.0,1.0
+gene104,gene19,gene104__gene19,secreted,1.0,1.0
+gene105,gene80,gene105__gene80,secreted,1.0,1.0
+gene99,gene91,gene99__gene91,secreted,1.0,1.0

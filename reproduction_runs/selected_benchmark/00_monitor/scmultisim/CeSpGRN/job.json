@@ -1,0 +1,24 @@
+{
+  "action": "CeSpGRN",
+  "dataset_id": "published_tree1_500_cells110_genes_sigma0.1_1",
+  "dataset_dir": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\prepared\\scmultisim",
+  "output_root": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\reproduction_runs\\selected_benchmark\\03_runs\\scmultisim",
+  "model_python": "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+  "tree_python": "C:\\Anaconda\\envs\\jnr-trees-clean\\python.exe",
+  "regdiffusion_python": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\vendor\\external_methods\\RegDiffusion\\venv\\Scripts\\python.exe",
+  "cesp_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\CeSpGRN\\src",
+  "reg_source": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\vendor\\external_methods\\RegDiffusion",
+  "cell_package": "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\data\\result\\optimization_20260921\\single_dataset_extension\\CellOracle\\venv\\Lib\\site-packages\\celloracle",
+  "rscript": "D:\\SoftWare\\R\\R-4.4.1\\bin\\Rscript.exe",
+  "r_library": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\R_library",
+  "r_software": "C:\\Users\\Wuyan\\Desktop\\GRN\\Futher\\GRN2\\reconstruct\\data\\raw\\optimization_20260921\\software",
+  "maximum_new_gib": 15.0,
+  "maximum_worker_rss_gib": 3.5,
+  "minimum_available_ram_gib": 1.5,
+  "minimum_free_disk_gib": 5.0,
+  "maximum_task_hours": 4.0,
+  "storage_reserve_bytes": 268435456,
+  "budget_roots": [
+    "D:\\Phd\\GRN\\P1\\JumpnicheRewire"
+  ]
+}

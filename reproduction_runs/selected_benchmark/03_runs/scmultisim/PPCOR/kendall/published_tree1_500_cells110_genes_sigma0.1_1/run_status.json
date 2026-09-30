@@ -1,0 +1,79 @@
+{
+  "state": "completed",
+  "controller": {
+    "pid": 5360,
+    "process_started": 1790748137.7409356,
+    "command": [
+      "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+      "-c",
+      "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=26988, pipe_handle=2640)",
+      "--multiprocessing-fork"
+    ],
+    "token": "e605d7488a2f4a29a4ed6f7a2087f716"
+  },
+  "started_epoch": 1790748142.514837,
+  "attempt_token": "e605d7488a2f4a29a4ed6f7a2087f716",
+  "pid": 4004,
+  "process_started": 1790748142.5086832,
+  "command": [
+    "C:\\Anaconda\\envs\\jumpniche\\python.exe",
+    "-c",
+    "from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=5360, pipe_handle=2244)",
+    "--multiprocessing-fork"
+  ],
+  "result": {
+    "state": "completed",
+    "method": "PPCOR",
+    "candidate": "kendall",
+    "dataset_id": "published_tree1_500_cells110_genes_sigma0.1_1",
+    "rows": 624,
+    "prediction_sha256": "ffa22fd667921c15c046cd494c1103b7eeaf3c4709e06875a595eb1c2e664d3e",
+    "input_sha256": "3a7c210f4c8448078b10e030acf92a2843f210b3f9ec97fe553d30caa1d8d8f0",
+    "truth_read": false,
+    "parameters": {
+      "method": "kendall"
+    }
+  },
+  "exit_code": 0,
+  "peak_sampled_worker_tree_rss_bytes": 211755008,
+  "observed_descendants": [
+    {
+      "pid": 25432,
+      "process_started": 1790748143.822317,
+      "command": [
+        "D:\\SoftWare\\R\\R-4.4.1\\bin\\Rscript.exe",
+        "--vanilla",
+        "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\benchmark_optimization\\official_r.R"
+      ]
+    },
+    {
+      "pid": 28664,
+      "process_started": 1790748143.8292346,
+      "command": [
+        "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+        "0x4"
+      ]
+    },
+    {
+      "pid": 24028,
+      "process_started": 1790748143.8512983,
+      "command": [
+        "C:\\WINDOWS\\system32\\cmd.exe",
+        "/c",
+        "D:\\SoftWare\\R\\R-4.4.1\\bin\\x64\\Rscript.exe --vanilla D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\benchmark_optimization\\official_r.R"
+      ]
+    },
+    {
+      "pid": 9436,
+      "process_started": 1790748143.8743477,
+      "command": [
+        "D:\\SoftWare\\R\\R-4.4.1\\bin\\x64\\Rscript.exe",
+        "--vanilla",
+        "D:\\Phd\\GRN\\P1\\JumpnicheRewire\\model_code\\src\\benchmark_optimization\\official_r.R"
+      ]
+    }
+  ],
+  "memory_measurement": "sampled RSS, not an OS allocation cap or guaranteed instantaneous peak",
+  "runtime_seconds": 15.03100000001723,
+  "finished_epoch": 1790748157.542687
+}

@@ -1,0 +1,88 @@
+[input] 0.04s
+[module 1] mode=spatial; 6 TFs, 104 targets, 2826 spatial edges, 2.56s
+[module 3 priors] 0.00s
+[module 2] 6 TFs x 104 targets, 2m 36.6s
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[module 4 exposure] 0.05s
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 1] fixed_point=1.29, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 2] fixed_point=0.468, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 3] fixed_point=0.197, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 4] fixed_point=0.0911, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 5] fixed_point=0.0439, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 6] fixed_point=0.0215, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 7] fixed_point=0.0107, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 8] fixed_point=0.0053, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 9] fixed_point=0.00265, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 10] fixed_point=0.00132, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 11] fixed_point=0.00066, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 12] fixed_point=0.00033, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 13] fixed_point=0.000165, beta_change=0, inner=100.0%
+C:\Anaconda\envs\jumpniche\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1620: RuntimeWarning: All-NaN slice encountered
+  return fnb._ureduce(a,
+[joint 14] fixed_point=8.25e-05, beta_change=0, inner=100.0%
+[checkpoint] D:\Phd\GRN\P1\JumpnicheRewire\reproduction_runs\selected_benchmark\03_runs\scmultisim\JumpNicheRewire\02_runs\l1_0075\numerical_checkpoint.pkl
+[module 4 output build] 0.06s
+[output parquet] base_grn: 20000 rows
+[output parquet] run_info: 14 rows
+[output parquet] input_audit: 11 rows
+[output parquet] timings: 7 rows
+[output parquet] spatial_genes: 110 rows
+[output parquet] spatial_edges: 2826 rows
+[output parquet] grn_edges: 20000 rows
+[output parquet] lr_gene: 0 rows
+[output parquet] receptor_paths: 0 rows
+[output parquet] cci_edges: 23664 rows
+[output parquet] regulon_activity: 3000 rows
+[output parquet] causal_edges: 0 rows
+[output parquet] convergence: 209 rows
+[output parquet] convergence_history: 25471 rows
+[output xlsx preview] spatial_edges: 200 of 2826 rows; full table is Parquet
+[output xlsx preview] base_grn: 200 of 20000 rows; full table is Parquet
+[output xlsx preview] grn_edges: 200 of 20000 rows; full table is Parquet
+[output xlsx preview] cci_edges: 200 of 23664 rows; full table is Parquet
+[output xlsx preview] regulon_activity: 200 of 3000 rows; full table is Parquet
+[output xlsx preview] convergence: 200 of 209 rows; full table is Parquet
+[output xlsx preview] convergence_history: 200 of 1000 rows; full table is Parquet
+[output xlsx] excel_manifest: 14 rows
+[output xlsx] run_info: 14 rows
+[output xlsx] input_audit: 11 rows
+[output xlsx] timings: 7 rows
+[output xlsx] spatial_genes: 110 rows
+[output xlsx] spatial_edges: 200 rows
+[output xlsx] base_grn: 200 rows
+[output xlsx] grn_edges: 200 rows
+[output xlsx] lr_gene: 0 rows
+[output xlsx] receptor_paths: 0 rows
+[output xlsx] cci_edges: 200 rows
+[output xlsx] regulon_activity: 200 rows
+[output xlsx] causal_edges: 0 rows
+[output xlsx] convergence: 200 rows
+[output xlsx] convergence_history: 200 rows
+[output] D:\Phd\GRN\P1\JumpnicheRewire\reproduction_runs\selected_benchmark\03_runs\scmultisim\JumpNicheRewire\02_runs\l1_0075\JumpNicheRewire_results.xlsx
