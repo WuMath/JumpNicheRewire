@@ -1,6 +1,6 @@
 # JumpNicheRewire
 
-当前 `JumpnicheRewire` 文件夹的逐步执行说明见 [执行手册.md](执行手册.md)。该手册覆盖从 `raw_data` 重建四套模型输入、重建 P22 ATAC 支持标签、七方法 benchmark、新案例拟合及图件生成。
+当前 `JumpnicheRewire` 文件夹的逐步执行说明见 [EXECUTE.md](EXECUTE.md)。该手册EXECUTE覆盖从 `raw_data` 重建四套模型输入、重建 P22 ATAC 支持标签、七方法 benchmark、新案例拟合及图件生成。
 
 论文列出 scMultiSim 与 P22 两项边排序比较（各七种方法），以及小鼠肾脏、人乳腺癌两张空间案例图。
 
